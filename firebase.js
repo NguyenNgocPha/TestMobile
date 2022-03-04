@@ -1,5 +1,5 @@
 // Import the functions you need from the SDKs you need
-import * as firebase from "firebase";
+import  firebase from "firebase";
 import { getFirestore } from "firebase/firestore";
 import "firebase/firestore";
 // https://firebase.google.com/docs/web/setup#available-libraries

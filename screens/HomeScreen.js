@@ -51,7 +51,7 @@ const HomeScreen = () => {
           base: "400px",
           lg: "auto",
         }}
-        behavior={Platform.OS === "ios" ? "padding" : "height"}
+        
       >
         <Box safeArea p="1" py="8" w="100%" h="50%" bg="primary.200">
           <NBBox m="5" px="5" py="5" h="100%" bg="primary.100">

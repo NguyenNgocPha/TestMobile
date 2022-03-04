@@ -4,6 +4,7 @@ import { StatusBar } from "expo-status-bar";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "./screens/HomeScreen";
+import  BottomTab from "./screens/Navigator/NavigatorBottomTab"
 import LoginScreen from "./screens/LoginScreen";
 import SignInScreen from "./screens/SignInScreen";
 const Stack = createNativeStackNavigator();
@@ -20,7 +21,7 @@ const App = () => {
         <Stack.Screen
           options={{ headerShown: false }}
           name="Home"
-          component={HomeScreen}
+          component={BottomTab}
         />
         <Stack.Screen
           options={{ headerShown: false }}
